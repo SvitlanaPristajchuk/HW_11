@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background: #023A15;
+}
+
+.container {
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 65px;
+}
+ a{
+    text-decoration: none;
+ }
+ul>a {
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+ul>a+a {
+    margin-left: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+    
+
+}
+.text{
+    width: 46%;
+}
+h1{
+ font-weight: 900;
+font-size: 109px;
+line-height: 1.1;
+letter-spacing: 2px;
+color: #FFFFFF;
+margin: 0;
+}
+.pictures{
+    width: 46%;
+    background: url('../images/vector.png') no-repeat;
+    position: relative;
+   
+}
+h1>span {
+    color:#F09C96;
+}
+.button{
+width: 185px;
+height: 52px;
+border-radius: 4px;
+background: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 40px;
+margin-bottom: 29px;
+
+}
+.text>span{
+    color: #FFFFFF;
+   
+}
+.button>a{
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #023A15;
+}
+.button>img{
+    margin-right: 10px;
+}
+.pictures img:first-child{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.pictures img:last-child {
+    margin-left: 45%;
+    margin-top: -5%;
+}
+.first{
+    position: absolute;
+    z-index: 10;
+    left: 0;
+}
+.second{
+    position: absolute;
+    z-index: 15;
+    top: 51%;
+    left: 40%;
+}
