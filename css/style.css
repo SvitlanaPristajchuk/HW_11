@@ -6,13 +6,14 @@
 body {
     background: #023A15;
 }
+.main{
+    padding-top: 40px;
+    padding-bottom: 81px;
+}
 
 .container {
-    width: 100%;
-    max-width: 1296px;
+  width: 1296px;
     margin: 0 auto;
-    padding-top: 32px;
-    padding-bottom: 81px;
 }
  a{
     text-decoration: none;
@@ -36,9 +37,7 @@ ul>a+a {
 .content{
     display: flex;
     justify-content: space-between;
-    margin-top: 85px;
-    
-
+    padding-top: 85px;
 }
 .text{
     width: 46%;
@@ -53,8 +52,10 @@ margin: 0;
 }
 .pictures{
     width: 46%;
-    background: url('../images/vector.png') no-repeat;
-    position: relative;
+}
+header .pictures{
+background: url('../images/vector.png') no-repeat;
+position: relative;
    
 }
 h1>span {
@@ -103,4 +104,19 @@ color: #023A15;
     z-index: 15;
     top: 51%;
     left: 40%;
+}
+
+/* second block*/
+body>main{
+    background: white;
+    padding-top: 128px;
+    padding-bottom: 217px;
+}
+main .content {
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+main .pictures {
+    padding-bottom: 0;
 }
